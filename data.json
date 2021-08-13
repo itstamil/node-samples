@@ -1,0 +1,21 @@
+{
+  "name": "tamilvalavan",
+  "city": "salem",
+  "state": "tamilnadu",
+  "mobile": "9944669324",
+  "mark": [
+    {
+      "tamil": 90,
+      "english": 90,
+      "maths": 90,
+      "science": 90,
+      "social": 90
+    },{
+      "tamil": 91,
+      "english": 91,
+      "maths": 90,
+      "science": 91,
+      "social": 91
+    }
+  ]
+}
