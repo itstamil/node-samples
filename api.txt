@@ -1,0 +1,104 @@
+Client - server
+
+client -> brwoser -> github -> login
+
+https://github.com/login
+
+ |
+
+https -  Protocal
+github.com - domain
+/login - refernce/resource/ context
+
+{
+	"user" : "itstamil",
+	"pass" : "teaser123"
+}
+
+localhost - 127.0.0.1
+
+github.com - domain  :13.234.210.38
+http  - 80  - 
+https - 443 -
+
+13.234.210.38:443
+
+
+server :
+	down - no response
+
+active
+    
+    /login - req
+   	{
+		"user" : "admin",
+		"pass" : "admin@123"
+	}
+
+	select from users where user='body.user'
+	db.find()
+
+200  - success
+401 - authorization failed
+404 - not found 
+502/500  - 
+
+Create
+READ
+UPDATE
+Delete
+
+CRUD 
+
+express - package
+
+API
+
+	POST 
+	GET
+	PUT
+	DELETE
+
+
+Post
+	- creation  | db entry creation
+	// signup
+	{	
+		email:
+		password:
+		username:
+	}
+
+post call doesnt require any primary id
+
+GET-
+	
+	information reterival
+
+	select * from user;
+
+	where - 
+
+findall - paramaters/condition
+ 
+ findone - parameter
+
+ PUT - update
+
+ update user set username="itst" where 
+
+ 	- parameter
+ 	- req payload
+
+ Delete -
+      -  parameter
+
+
+server - http listen
+api - database to handle all api
+db.js - optional
+package.json - npm init
+user
+	userController.js 
+movie
+	moviesController.js 
